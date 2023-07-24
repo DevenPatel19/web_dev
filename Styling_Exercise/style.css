@@ -1,0 +1,32 @@
+*{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: left;
+    
+    
+}
+#cloud{
+    background-color:black ;
+    color: cyan;
+    
+    
+}
+h2{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    
+}
+h3{
+    background-color: hsl(219, 60%, 61%);
+    color: black;
+    text-align: right;
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+    
+}

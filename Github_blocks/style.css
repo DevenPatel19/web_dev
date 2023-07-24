@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1{
+    
+    font-size: 90px;
+    text-align: center;
+}
+
+.container{
+    max-width: 20%;
+    display: flex;
+    
+}
+.bar{
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+    height: 400px;
+    
+
+}
+
+#ltblue{
+    background-color: lightblue;
+    
+
+}
+#ltpink{
+    background-color: lightpink;
+    
+    
+}
+#white{
+   background-color: white;
+   
+}
+
+img{
+    width: 80px
+    height: 80px;
+    padding: 20px;
+    }
+
+.footer{
+    text-align: center;
+}

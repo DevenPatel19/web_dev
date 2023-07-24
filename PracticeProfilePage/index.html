@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <ul class="nav-list">
+            <li><p class="name">Profile</p></li>
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">My Profile</a></li>
+            <li class="nav-item"><a href="#">Find Connections</a></li>
+        </ul>
+        <li class="sgnout"><button class="btn">Sign Out</button></li>
+    </div>
+    <div class="content">
+        <div class="col-1">
+            <div class="usercard card">
+                <div class="bluebar"></div>
+                <div class="indentprof">
+                    <div class="propic">
+                        <img id="profile" src="./icons/user-circle.png" alt="User Profile Picture">
+                    </div>
+                    <h1 class="name">
+                        Jane Doe
+                    </h1>
+                    <div class="map-marker">
+                        <div class="location">
+                        <img id="marker" src="./icons/map-marker.png" alt="map marker icons">
+                        <h3>Seattle</h3>
+                        </div>
+                    </div>
+                    <div class="titles">
+                        <p>Developer | Engineer | Problem Solver</p>
+                    </div>
+                    <div class="slogan">
+                        <p>Master of shadows and the Internet!</p>
+                    </div>
+                    <div class="gear-edit">
+                        <img id="gear" src="./icons/gear.png" alt="gear">
+                        <a id="editproflink" href="#">edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="edcard card">
+                <div id="graybar-ed">
+                    <div class="indent">
+                        <p class="box-header">Education</p>
+                    </div>
+                </div>
+                <div class="indent">
+                    <div class="school">
+                        <p id="p1">Coding Dojo - Full Stack Bootcamp</p>
+                        <p id="p2">Dec 2019 - mar 2020</p>
+                        <p id="p3">Triple black belt in Python, MERN, and C#...</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="connectreq card">
+                <div class="graybar"><span class="col2header"> 2  Connnection Requests</span></div>
+            <div ><img src="./images/todd-s.jpg" alt="Todd E."> <span class="cncts"> Todd E <img class="yn" alt="yes" src="./icons/accept-circle.png"><img class="yn" alt="no" src="./icons/close-circle.png"></span></div>
+            <div ><img src="./images/phil-s.jpg" alt="Phil K."> <span class="cncts"> Phil K <img class="yn" alt="yes" src="./icons/accept-circle.png"><img class="yn" alt="no" src="./icons/close-circle.png"></span></div>
+            </div>
+            <div class="yourconnect card">
+                <div class="graybar"><span class="col2header">500+ Your Connections</span>  </div>
+                <div ><img src="./images/anne-s.jpg" alt="Anne J."> <span class="cncts">Anne J</span></div>
+                <div ><img src="./images/alayne-s.jpg" alt="Alayne T."> <span class="cncts">Alayne T</span></div>
+                <div ><img src="./images/arry-s.jpg" alt="Arry S."> <span class="cncts">Arry Y</span></div>
+                <div ><img src="./images/adrien-s.jpg" alt="Adrien D."> <span class="cncts">Adrien D</span></div>
+                <div class="view-more card"><a href="#">View More</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

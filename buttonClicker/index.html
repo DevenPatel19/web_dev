@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- start of search bar -->
+    <div class="top">
+         <h1>Dojonary</h1>
+        <input type="search" placeholder="Search">
+<!-- Login/Logoff Button -->
+        <button onclick="namechange()" id="log">Login</button>
+    </div>
+<!-- end of search bar code/start of content code -->
+    <div class="bottom">
+<!-- start of left side code-->
+        <div class="col-a">
+ <!-- start of top card -->
+            <div class="card">
+                 <div class="l"> 
+                    <div class="word">ninja</div>
+                    <div class="partofspeech italics">noun</div>
+                    <div class="plural">Plural: <span class="italics">ninjas</span></div>
+                        <button onclick="alert('Ninja was liked')" class="likes" id="likes"><p id="display">0</p> likes</button>
+                </div>
+                <div class="r">
+                    A practitioner skilled in the <a href="#" alt="Japanese Definition">Japanese</a> art of <a href="#" alt="ninjutsu Definition">ninjutsu</a>
+                </div>
+            </div>
+<!-- end of top card /start of bottom card -->
+            <div class="card">
+                <div class="l">
+                    <div class="word">ninja</div>
+                    <div class="partofspeech italics">noun</div>
+                    <div class="plural">Plural: <span class="italics">ninjas</span></div>
+                    <div class="btn">
+                        <button onclick="alert('Ninja was liked')" class="likes">
+                            <p id="display">0</p> likes
+                        </button>
+                    </div>
+                </div>
+                <div class="r">
+                    A <a href="#" alt="Programmer Definition">programmer</a> who breaks down problems with <a href="#" alt="zen Definition">zen</a>-like focus
+                </div>
+            </div>
+<!-- end of bottom card  -->
+        </div>
+<!-- end of left side code/start of right side -->
+        <div class="col-b">
+            <div class="card box">
+                <p class="slogan">Dojonary is defined by <span class="bold">YOU</span></p>
+<!-- TO DO ADD JS TO REMOVE ADD DEF BUTTON onclick-->
+                <button class="add-def bold" id="byebye">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* border: 1px red solid; */
+}
+
+.wrapper{
+    height: 400px;;
+    width: 900px;
+    border: 5px solid lightgray;
+    margin: 50px;
+    flex-direction: column;
+}
+
+.blue_bar{
+    background-color: darkcyan;
+    height: 30%;
+}
+
+.name-face{
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: 10px;;
+    padding-left: 50px;
+    
+}
+
+#face {
+    height: 100px;
+}
+
+.name {
+    font-size: 3rem;
+}
+
+.map-city{
+    display: flex;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+#map{
+    height: 30px;
+    margin-right: 25px;;
+    position: relative;
+    flex: 1
+}
+
+.city{
+    font-size: 1.8rem;
+    width: 200px;;
+}
+
+
+.titles{
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding-left: 50px;
+}
+
+.slogan{
+    font-size: 1.3rem;
+    padding-left: 50px;
+    margin-bottom: 15px;
+}
+
+.gear-edit{
+    display: inline-flex;
+    padding-left: 50px;
+}
+
+#gear{
+    height: 30px;
+    width: 30px;
+}
+
+#editlink{
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+
