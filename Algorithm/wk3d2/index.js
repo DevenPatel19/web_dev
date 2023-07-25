@@ -35,7 +35,7 @@ var arr1Expected = ["a", "c", "d", "e"];
 
 
 function removeAt(items, idx) {
-  for (i = idx; i< items.length-1; i++) {
+  for (i = idx; i< items.length; i++) {
     items[i] = items[i+1];
 }
 items.pop();
